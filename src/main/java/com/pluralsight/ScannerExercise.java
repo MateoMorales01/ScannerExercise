@@ -15,7 +15,10 @@ public class ScannerExercise {
         Integer Age = scanner.nextInt();
         System.out.println("You are years old " + Age);
 
-        System.out.print("");
+        System.out.print("What is your height?: ");
+        Double Height = scanner.nextDouble();
+        System.out.println("Your Height is " + Height);
+
 
     }
 }
