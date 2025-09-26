@@ -18,7 +18,5 @@ public class ScannerExercise {
         System.out.print("What is your height?: ");
         Double Height = scanner.nextDouble();
         System.out.println("Your Height is " + Height);
-
-
     }
 }
