@@ -15,8 +15,13 @@ public class ScannerExercise {
         Integer Age = scanner.nextInt();
         System.out.println("You are years old " + Age);
 
-        System.out.print("What is your height?: ");
+        System.out.print("What is your height in meters?: ");
         Double Height = scanner.nextDouble();
         System.out.println("Your Height is " + Height);
+
+        System.out.print("Do you like using Java? Enter True or False: ");
+        boolean userLikesJava = scanner.nextBoolean();
+
+        System.out.printf("Name: %s \nAge: %d \nHeight: %.2f meters tall. \nDoes user like Java?: %b", firstName, Age, Height, userLikesJava);
     }
 }
